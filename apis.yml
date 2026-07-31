@@ -1,23 +1,57 @@
 aid: numerify
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/numerify.png
 name: Numerify
-description: Numerify is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Numerify was an IT business analytics company that provided a cloud-based System of Intelligence for
+  IT operations, applying AI and machine learning to data from ITSM, DevOps, and application-performance
+  tools to predict change risk, reduce incidents, and improve software delivery. Numerify was acquired by
+  Digital.ai in 2020, and its capabilities now live inside Digital.ai's Change Risk Prediction / Intelligence
+  product line. The standalone numerify.com domain 301-redirects to digital.ai, and the company publishes no
+  independent public developer API, OpenAPI specification, SDKs, or developer portal. This profile was surfaced
+  as a portfolio company of Lightspeed Venture Partners and enriched by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/numerify/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: acquired
+x-acquired-by: digital.ai
+x-acquired-year: '2020'
 x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- IT Analytics
+- DevOps
+- ITSM
+- Machine Learning
+- Change Risk Prediction
+- Acquired
 apis: []
+common:
+- type: Website
+  url: https://digital.ai/change-risk-prediction
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
