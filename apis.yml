@@ -49,7 +49,7 @@ tags:
 - IT Analytics
 - DevOps
 - ITSM
-- Machine-Learning
+- Machine Learning
 - Change Risk Prediction
 - Acquired
 tags_raw:
@@ -60,6 +60,7 @@ tags_raw:
 - Machine Learning
 - Change Risk Prediction
 - Acquired
+- Machine-Learning
 apis: []
 common:
 - type: Website
